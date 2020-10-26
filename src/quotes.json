@@ -1,0 +1,20 @@
+[
+    {
+        "quote": "Sayonara Baby!",
+        "character": "Terminator",
+        "film": "Terminator",
+        "contributor": "Elegidoadedo"
+    },
+    {
+        "quote": "I'm gonna make him an offer he can't refuse.",
+        "character": "Don Vito Corleone",
+        "film": "The Godfather",
+        "contributor": "Elegidoadedo"
+    },        
+    {
+        "quote": "ADD_YOUR_QUOTE",
+        "character": "ADD_THE_CHARACTER_WHO_SAID_THE_QUOTE",
+        "film": "ADD_THE_FILM_OR_TVSHOW",
+        "contributor": "ADD_YOUR_NAME_HERE"
+    }
+]
