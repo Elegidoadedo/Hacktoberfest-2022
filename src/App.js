@@ -1,20 +1,28 @@
-import React , { useState } from 'react';
+import React , { useState, useEffect } from 'react';
 import quoteList from './quotes.json';
+import { Container,Title, Subtitle, Contributor} from './styles';
 
 function App() {
   const [quote, setQuote] = useState(quoteList[0])
 
   setTimeout(() => {
-    setQuote(quoteList[Math.floor(Math.random()*(quoteList.length))])
   }, 5000);
 
+  useEffect(() => {
+    const intervalId = setInterval(() => { 
+      setQuote(quoteList[Math.floor(Math.random()*(quoteList.length))])
+    }, 5000)
+  
+    return () => clearInterval(intervalId);
+  }, [setQuote]);
+
   return (
- <div>
-   <h1>{quote.quote}</h1>
-   <h2>{quote.character}</h2>
-   <h2>{quote.film}</h2>
-   <h4>{quote.contributor}</h4>
- </div>
+ <Container>
+   <Title>{quote.quote}</Title>
+   <Subtitle>{quote.character}</Subtitle>
+   <Subtitle>{quote.film}</Subtitle>
+   <Contributor>{quote.contributor}</Contributor>
+ </Container>
   );
 }
 
