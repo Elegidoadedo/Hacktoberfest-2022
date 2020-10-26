@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Hactoberfest2020/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/Hactoberfest2020/static/js/main.fb03b349.chunk.js",
+    "main.js.map": "/Hactoberfest2020/static/js/main.fb03b349.chunk.js.map",
+    "runtime-main.js": "/Hactoberfest2020/static/js/runtime-main.85552962.js",
+    "runtime-main.js.map": "/Hactoberfest2020/static/js/runtime-main.85552962.js.map",
+    "static/js/2.f79be723.chunk.js": "/Hactoberfest2020/static/js/2.f79be723.chunk.js",
+    "static/js/2.f79be723.chunk.js.map": "/Hactoberfest2020/static/js/2.f79be723.chunk.js.map",
+    "index.html": "/Hactoberfest2020/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/Hactoberfest2020/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.f79be723.chunk.js.LICENSE.txt": "/Hactoberfest2020/static/js/2.f79be723.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.85552962.js",
+    "static/js/2.f79be723.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.fb03b349.chunk.js"
+  ]
+}
