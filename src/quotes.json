@@ -10,7 +10,19 @@
         "character": "Don Vito Corleone",
         "film": "The Godfather",
         "contributor": "Elegidoadedo"
-    },        
+    },
+    {
+        "quote": "Frankly, my dear, I don't give a damn.",
+        "character": "Rhett Butler",
+        "film": "Gone With the Wind",
+        "contributor": "Elegidoadedo"
+    },
+    {
+        "quote": "You don't understand! I coulda had class. I coulda been a contender. I could've been somebody, instead of a bum, which is what I am.",
+        "character": "Marlon Brando",
+        "film": " On the Waterfront,",
+        "contributor": "Elegidoadedo"
+    },
     {
         "quote": "ADD_YOUR_QUOTE",
         "character": "ADD_THE_CHARACTER_WHO_SAID_THE_QUOTE",

@@ -2,7 +2,7 @@
   "name": "hacktoberfest2020",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://elegidoadedo.github.io/Hactoberfest2020",
+  "homepage": "http://elegidoadedo.github.io/Hactoberfest2022",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.0",
