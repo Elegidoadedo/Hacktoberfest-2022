@@ -18,6 +18,9 @@ function App() {
   return (
     <Container>
       <Title>{quote.quote}</Title>
+      {quote?.image ? (
+        <img alt={quote.film} src={quote.image} height="400px" width="400px" />
+      ) : null}
       <Subtitle>{quote.character}</Subtitle>
       <Subtitle>{quote.film}</Subtitle>
       <Contributor>{quote.contributor}</Contributor>

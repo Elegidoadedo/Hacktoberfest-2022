@@ -4,8 +4,9 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100 vh;
-  width: 100 vw;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 `;
 
 export const Title = styled.h1`
